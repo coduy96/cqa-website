@@ -16,6 +16,16 @@ module.exports = {
       },
       items: [
         {
+          type: 'docsVersionDropdown',
+          position: 'left',
+        },
+        // {
+        //   type: 'docsVersion',
+        //   position: 'left',
+        //   // to: "/path // by default, link to active/latest version
+        //   // label: "label" // by default, show active/latest version label
+        // },
+        {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',

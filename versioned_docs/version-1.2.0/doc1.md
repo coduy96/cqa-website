@@ -13,6 +13,7 @@ To serve as an example page when styling markdown based Docusaurus sites.
 
 ## Headers
 
+# H1 - Create the best documentation
 
 ## H2 - Create the best documentation
 
@@ -89,7 +90,7 @@ Reference-style: ![alt text][logo]
 
 Images from any folder can be used by providing path to file. Path should be relative to markdown file.
 
-![img](../static/img/logo.svg)
+<!-- ![img](../static/img/logo.svg) -->
 
 ---
 
@@ -105,10 +106,7 @@ s = "Python syntax highlighting"
 print(s)
 ```
 
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
+
 
 ```js {2}
 function highlightMe() {
