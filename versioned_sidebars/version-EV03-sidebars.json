@@ -1,0 +1,19 @@
+{
+  "version-EV03/someSidebar": [
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "CQA",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-EV03/GioiThieuCQA"
+        },
+        {
+          "type": "doc",
+          "id": "version-EV03/GioiThieuCQADoc"
+        }
+      ]
+    }
+  ]
+}

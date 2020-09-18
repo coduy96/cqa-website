@@ -2,7 +2,6 @@
 id: doc1
 title: Style Guide
 sidebar_label: Style Guide
-slug: /
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
@@ -13,7 +12,6 @@ To serve as an example page when styling markdown based Docusaurus sites.
 
 ## Headers
 
-# H1 - Create the best documentation
 
 ## H2 - Create the best documentation
 
@@ -106,7 +104,10 @@ s = "Python syntax highlighting"
 print(s)
 ```
 
-
+```
+No language indicated, so no syntax highlighting.
+But let's throw in a <b>tag</b>.
+```
 
 ```js {2}
 function highlightMe() {
