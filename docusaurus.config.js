@@ -8,6 +8,9 @@ module.exports = {
   organizationName: 'Pitech', // Usually your GitHub org/user name.
   projectName: 'cqa-website', // Usually your repo name.
   themeConfig: {
+    colorMode:{
+      defaultMode: 'dark',
+    },
     navbar: {
       title: 'Beebee',
       logo: {
