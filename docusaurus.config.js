@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'CQA',
+  title: 'Beebee',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -9,34 +9,24 @@ module.exports = {
   projectName: 'cqa-website', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'CQA',
+      title: 'Beebee',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
+        {to: 'blog', label: 'Giới thiệu', position: 'left'},
+
         {
           type: 'docsVersionDropdown',
           position: 'left',
         },
-        // {
-        //   type: 'docsVersion',
-        //   position: 'left',
-        //   // to: "/path // by default, link to active/latest version
-        //   // label: "label" // by default, show active/latest version label
-        // },
-        // {
-        //   to: 'docs/',
-        //   activeBasePath: 'docs',
-        //   label: 'Docs',
-        //   position: 'left',
-        // },
-        {to: 'blog', label: 'Prj Update', position: 'left'},
+
         {
           href: 'https://github.com/',
           label: 'GitHub',
           position: 'right',
-        },
+        }
       ],
     },
     footer: {
@@ -86,7 +76,7 @@ module.exports = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Pitech Inc, CQA by BOT`,
+      copyright: `Copyright © ${new Date().getFullYear()} Pitech Inc, Beebee by BOT`,
     },
   },
   presets: [
@@ -104,6 +94,11 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            postsPerPage: 3,
+            feedOptions: {
+              type: "all",
+              copyright: `Copyright © ${new Date().getFullYear()} Dver.`
+            }
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

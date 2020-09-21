@@ -59,41 +59,89 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <div className={styles.hero}>
-          <div className={styles.heroInner}>
-            <h1 className={styles.heroProjectTagline}>
-              <img
-                alt="Beebee with Keytar"
-                className={styles.heroLogo}
-                src={useBaseUrl('img/logo.svg')}
-              />
-              Build{' '}
-              <span className={styles.heroProjectKeywords}>optimized</span>{' '}
-              websites{' '}
-              <span className={styles.heroProjectKeywords}>quickly</span>, focus
-              on your{' '}
-              <span className={styles.heroProjectKeywords}>content</span>
-            </h1>
-            <div className={styles.indexCtas}>
-              <Link
-                className={styles.indexCtasGetStartedButton}
-                to={useBaseUrl('docs/')}>
-                Bắt đầu tìm hiểu
-              </Link>
-              {/* <span className={styles.indexCtasGitHubButtonWrapper}>
-                <iframe
-                  className={styles.indexCtasGitHubButton}
-                  src="https://ghbtns.com/github-btn.html?user=facebook&amp;repo=docusaurus&amp;type=star&amp;count=true&amp;size=large"
-                  width={160}
-                  height={30}
-                  title="GitHub Stars"
+      title={`Làm việc hiệu quả`}
+      description="Công cụ giúp tối ưu hóa hiệu quả công việc <head />">
+      <main>
+        <div className={styles.hero}>
+            <div className={styles.heroInner}>
+              <h1 className={styles.heroProjectTagline}>
+                <img
+                  alt="Beebee with Keytar"
+                  className={styles.heroLogo}
+                  src={useBaseUrl('img/logo.svg')}
                 />
-              </span> */}
+                Hỗ trợ{' '}
+                <span className={styles.heroProjectKeywords}>tập trung</span>{' '}
+                và{' '}
+                <span className={styles.heroProjectKeywords}>tối ưu</span> công việc một cách 
+                {' '}
+                <span className={styles.heroProjectKeywords}>hiệu quả.</span>
+              </h1>
+              <div className={styles.indexCtas}>
+                <Link
+                  className={styles.indexCtasGetStartedButton}
+                  to={useBaseUrl('docs/')}>
+                  Bắt đầu tìm hiểu
+                </Link>
+                {/* <span className={styles.indexCtasGitHubButtonWrapper}>
+                  <iframe
+                    className={styles.indexCtasGitHubButton}
+                    src="https://ghbtns.com/github-btn.html?user=facebook&amp;repo=docusaurus&amp;type=star&amp;count=true&amp;size=large"
+                    width={160}
+                    height={30}
+                    title="GitHub Stars"
+                  />
+                </span> */}
+              </div>
+            </div>
+          </div>
+        
+          <div className={styles.section}>
+          <div className="container text--center margin-bottom--xl">
+            <div className="row">
+              <div className="col">
+                <img
+                  className={styles.featureImage}
+                  alt="Powered by MDX"
+                  src={useBaseUrl('img/undraw_employee.svg')}
+                />
+                <h2 className={clsx(styles.featureHeading)}>
+                  Nhân viên
+                </h2>
+                <p className="padding-horiz--md">
+                  Truy cập nhanh, tiết kiệm thời gian trong việc lấy thông tin liên quan đến công việc.
+                </p>
+              </div>
+              <div className="col">
+                <img
+                  alt="Built Using React"
+                  className={styles.featureImage}
+                  src={useBaseUrl('img/undraw_hr.svg')}
+                />
+                <h2 className={clsx(styles.featureHeading)}>
+                  HR
+                </h2>
+                <p className="padding-horiz--md">
+                  Thông báo về hoạt động bên trong, bên ngoài và tạo kết nối giữa các thành viên trong công ty.
+                </p>
+              </div>
+              <div className="col">
+                <img
+                  alt="Ready for Translations"
+                  className={styles.featureImage}
+                  src={useBaseUrl('img/undraw_manager.svg')}
+                />
+                <h2 className={clsx(styles.featureHeading)}>
+                  Quản lý
+                </h2>
+                <p className="padding-horiz--md">
+                  Theo dỗi được hoạt động của cá nhân hoặc tổ chức. Đưa ra định hướng phù hợp.
+                </p>
+              </div>
             </div>
           </div>
         </div>
+      </main>
     </Layout>
   );
 }
