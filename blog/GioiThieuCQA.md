@@ -18,7 +18,9 @@ Beebee là công cụ luôn nằm ở màn hình chính của máy tính, khi c�
 
 Hỗ trợ tập trung, tối ưu công việc một cách hiệu quả. Cung cấp thông tin liên quan đến HR, Data và Business để mọi người nắm bắt tốt hơn về hoạt động công ty.
 
-<iframe width="675" height="380" src="https://im6.ezgif.com/tmp/ezgif-6-4c741191378d.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="675" height="380" src="https://youtu.be/PL-o4RBP2oE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/PL-o4RBP2oE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<iframe src="https://www.youtube.com/embed/PL-o4RBP2oE" frameborder="0" allowfullscreen width="100%"height="450px"></iframe>
 
 <h3>Quy trình phát triển Beebee</h3>
 
