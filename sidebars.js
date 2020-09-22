@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    CQA: ['GioiThieuCQA','GioiThieuCQADoc'],
-    Process: ['QuyTrinhTongQuang'],
+    Introduction: ['GioiThieuCQA'],
+    EV01: ['EV01'],
   },
 };

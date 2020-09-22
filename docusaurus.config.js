@@ -18,12 +18,13 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: 'blog', label: 'Giới thiệu', position: 'left'},
+        {to: 'docs', label: 'Document', position: 'left'},
+        {to: 'blog', label: 'History', position: 'left'},
 
-        {
-          type: 'docsVersionDropdown',
-          position: 'left',
-        },
+        // {
+        //   type: 'docsVersionDropdown',
+        //   position: 'left',
+        // },
 
         {
           href: 'https://github.com/',
