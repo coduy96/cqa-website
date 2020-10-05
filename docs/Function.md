@@ -12,6 +12,12 @@ sidebar_label: Sale data function detailing
     + User (người dùng bình thường)
     + Admin (quản lý) -->
 
++ <a href="#giao-diện-truy-cập-nhanh">Giao diện truy cập nhanh</a> (Dành cho User):
+
+    + Hiện thị trên top layer của màn hình
+    + Khởi động cùng windows
+    + Thu phóng cửa sổ làm việc 
+
 + <a href="#theo-dỗi-sức-bán">Theo dỗi sức bán</a> (Dành cho User):
 
     + Của chiến dịch
@@ -46,6 +52,36 @@ Module cấu thành:
 Work flow của chức năng: -->
 
 ## Problems solving
+
+### Giao diện truy cập nhanh
+
+#### Mô tả
+ + Ứng dụng sẽ tự khởi động khi người dùng mở máy, người dùng không cần phải kích hoạt mở ứng dụng.
+ + Ứng dụng luôn nằm trên top layer của màn hình, giúp người dùng truy cập nhanh vào ứng dụng mà không cần phải thoát khỏi ứng dụng đang làm việc.
+ + Thu phóng cửa sổ làm việc giúp người dùng mở rộng màn hình làm việc khi cần thiết và thu nhỏ thành widget khi không có nhu cầu sử dụng.
+
+#### Module cấu thành
++ <a href="module1#resizescreen">ResizeScreen(FrontEnd)</a>
++ <a href="module1#uistatemanagement">UIStatemanagement(frontend)</a>
+
+#### Workflow
+![giaodientruycapnhanh](https://i.ibb.co/162HVPq/cqa-page-route-1.png)
+
+### Quản lý chiến dịch
+
+#### Mô tả
+Kết nối sản phẩm riêng lẻ thành một chiến dịch, giúp việc quản lý và đặt mục tiêu trở nên có ý nghĩa hơn.
+
++ Tạo chiến dịch mới:
+    + Đặt tên cho chiến dịch
+    + Thêm sản phẩm vào chiến dịch
+    + Cài đặt mô tả cho chiến dịch
+
++ Chỉnh sửa thông tin cho chiến dịch
+    + Đặt lại tên
+    + Thêm hoặc xóa sản phẩm ra khỏi chiến dịch
+    + Đặt lại mô tả cho chiến dịch
+
 
 ### Theo dỗi sức bán
 

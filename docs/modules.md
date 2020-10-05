@@ -7,7 +7,7 @@ sidebar_label: Modules
 ## Back-end
 
 ### Authentication
-Module tạo đoạn mã xác thực giữa client và server
+Xác thực tính hợp lệ của tài khoản và phân role cho user
 ```javascript
 // Input:
 {
@@ -18,18 +18,22 @@ Output:'JavaScript syntax highlighting'
 ```
 
 ### Filter
-Module tạo đoạn mã xác thực giữa client và server
+Filter dữ liệu từ phía server
 ```javascript
 // Input:
 {
-    username: 'aaaa' || String
-    password: 'aaaa' || String
+    startDate: 'timestamp' || String
+    endDate: 'timestamp' || String
+    format: 'day' or 'month' or 'year' || String
 }
-Output:'JavaScript syntax highlighting'
+// Output:
+{
+
+}
 ```
 
 ### GetSaleData
-Module tạo đoạn mã xác thực giữa client và server
+Lấy thông tin liên quan đến dữ liệu bán hàng
 ```javascript
 // Input:
 {
@@ -40,7 +44,7 @@ Output:'JavaScript syntax highlighting'
 ```
 
 ### Realtime
-Module tạo đoạn mã xác thực giữa client và server
+Khởi tạo liên kết realtime giữa server và client
 ```javascript
 // Input:
 {
@@ -51,7 +55,7 @@ Output:'JavaScript syntax highlighting'
 ```
 
 ### GetProductInfo
-Module tạo đoạn mã xác thực giữa client và server
+Lấy thông tin sản phẩm 
 ```javascript
 // Input:
 {
@@ -62,7 +66,7 @@ Output:'JavaScript syntax highlighting'
 ```
 
 ### EditCampaign
-Module tạo đoạn mã xác thực giữa client và server
+Chỉnh sửa nội dung của chiến dịch
 ```javascript
 // Input:
 {
@@ -73,7 +77,7 @@ Output:'JavaScript syntax highlighting'
 ```
 
 ### CreateNewCampaign
-Module tạo đoạn mã xác thực giữa client và server
+Tạo chiến dịch mới
 ```javascript
 // Input:
 {
@@ -84,7 +88,7 @@ Output:'JavaScript syntax highlighting'
 ```
 
 ### DeleteCampaign
-Module tạo đoạn mã xác thực giữa client và server
+Xóa chiến dịch
 ```javascript
 // Input:
 {
@@ -95,7 +99,7 @@ Output:'JavaScript syntax highlighting'
 ```
 
 ### EditTarget
-Module tạo đoạn mã xác thực giữa client và server
+Chỉnh sửa mục tiêu
 ```javascript
 // Input:
 {
@@ -106,7 +110,7 @@ Output:'JavaScript syntax highlighting'
 ```
 
 ### CreateNewTarget
-Module tạo đoạn mã xác thực giữa client và server
+Tạo mục tiêu mới
 ```javascript
 // Input:
 {
@@ -117,7 +121,7 @@ Output:'JavaScript syntax highlighting'
 ```
 
 ### DeleteTarget
-Module tạo đoạn mã xác thực giữa client và server
+Xóa mục tiêu
 ```javascript
 // Input:
 {
@@ -131,12 +135,27 @@ Output:'JavaScript syntax highlighting'
 
 ### UIStatemanagement
 
-Module tạo đoạn mã xác thực giữa client và server
+Quản lý và cập nhật thành phần trong giao diện khi có sự thay đổi
 ```javascript
 // Input:
-{
-    username: 'aaaa' || String
-    password: 'aaaa' || String
-}
-Output:'JavaScript syntax highlighting'
+Observable: 'variable.Obx' || Observable Variable
+//Output
+Action: Change the UI
+```
+
+### ResizeScreen
+Thay đổi kích thước màn hình làm việc của Beebee, giúp thu ngọn Beebee từ màn hình làm việc lớn thành widget nhỏ.
+```javascript
+// Input:
+Event: 'toControlling', 'toStarting',  'toDetailing'|| Method from WindowsController Class
+// Output
+CurrentState: 'ONCONTROLLING', 'ONSTART', 'ONDETAILING' || Observable String
+```
+
+### Set top layer
+Thuộc tính HWND_TOPMOST giúp windows luôn nằm trên top layer
+```javascript
+// Input:
+SetWindowPos(GetRootWindow(registrar_->GetView()), HWND_TOPMOST, x, y, width,
+                 height, SWP_NOACTIVATE | SWP_NOOWNERZORDER);
 ```
