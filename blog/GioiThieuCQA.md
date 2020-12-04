@@ -9,10 +9,10 @@ tags: [document]
 
 
 ---
-Huớng dẫn sử dụng EV01
+Huớng dẫn sử dụng EV00
 <!--truncate-->
 
-<a href="https://drive.google.com/file/d/1hYTmcl2pFozCdcGxxRH3HxeW6ff2NBo7/view?usp=sharing">Link Download</a>
+<a href="https://drive.google.com/file/d/1kjmR4ushixkZqkxvPilbVQf3ua8NdRE9/view?usp=sharing">Link Download</a>
 
 
 ![hinh-anh](https://i.ibb.co/wCgTrrj/be-Bee-1-01.png)
