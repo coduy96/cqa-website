@@ -9,115 +9,58 @@ sidebar_label: Modules
 ### Authentication
 Xác thực tính hợp lệ của tài khoản và phân role cho user
 ```javascript
-// Input:
+Input:
 {
     username: 'aaaa' || String
     password: 'aaaa' || String
 }
-Output:'JavaScript syntax highlighting'
+Output: {'AuthData'}
 ```
 
 ### Filter
 Filter dữ liệu từ phía server
 ```javascript
-// Input:
+Input:
 {
     startDate: 'timestamp' || String
     endDate: 'timestamp' || String
     format: 'day' or 'month' or 'year' || String
 }
-// Output:
-{
-
-}
-```
-
-### GetSaleData
-Lấy thông tin liên quan đến dữ liệu bán hàng
-```javascript
-// Input:
-{
-    username: 'aaaa' || String
-    password: 'aaaa' || String
-}
-Output:'JavaScript syntax highlighting'
+Output:{'ListData'}
 ```
 
 ### Realtime
 Khởi tạo liên kết realtime giữa server và client
 ```javascript
-// Input:
-{
-    username: 'aaaa' || String
-    password: 'aaaa' || String
-}
-Output:'JavaScript syntax highlighting'
-```
+Input: CreateInstanceListener(AuthData)
 
-### GetProductInfo
-Lấy thông tin sản phẩm 
-```javascript
-// Input:
-{
-    username: 'aaaa' || String
-    password: 'aaaa' || String
-}
-Output:'JavaScript syntax highlighting'
-```
-
-### EditCampaign
-Chỉnh sửa nội dung của chiến dịch
-```javascript
-// Input:
-{
-    username: 'aaaa' || String
-    password: 'aaaa' || String
-}
-Output:'JavaScript syntax highlighting'
-```
-
-### CreateNewCampaign
-Tạo chiến dịch mới
-```javascript
-// Input:
-{
-    username: 'aaaa' || String
-    password: 'aaaa' || String
-}
-Output:'JavaScript syntax highlighting'
-```
-
-### DeleteCampaign
-Xóa chiến dịch
-```javascript
-// Input:
-{
-    username: 'aaaa' || String
-    password: 'aaaa' || String
-}
-Output:'JavaScript syntax highlighting'
+Output: StreamData
 ```
 
 ### EditTarget
 Chỉnh sửa mục tiêu
 ```javascript
-// Input:
+Input:
 {
-    username: 'aaaa' || String
-    password: 'aaaa' || String
+    complete: 100 || Number
+    createDate: November 24/2012 at 10:32:02 AM || Timestamp
+    target: 123 || Number
+    week: 41 || Number
 }
-Output:'JavaScript syntax highlighting'
+Output:{"Edit status"}
 ```
 
 ### CreateNewTarget
 Tạo mục tiêu mới
 ```javascript
-// Input:
+Input:
 {
-    username: 'aaaa' || String
-    password: 'aaaa' || String
+    complete: 100 || Number
+    createDate: November 24/2012 at 10:32:02 AM || Timestamp
+    target: 123 || Number
+    week: 41 || Number
 }
-Output:'JavaScript syntax highlighting'
+Output:{"Create status"}
 ```
 
 ### DeleteTarget
@@ -125,10 +68,9 @@ Xóa mục tiêu
 ```javascript
 // Input:
 {
-    username: 'aaaa' || String
-    password: 'aaaa' || String
+    id: 'aaaa' || String
 }
-Output:'JavaScript syntax highlighting'
+Output:{"Delete status"}
 ```
 
 ## Front-end

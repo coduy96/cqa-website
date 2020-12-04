@@ -1,20 +1,20 @@
 ---
 id: GioiThieuCQA
-title: Giới thiệu BeeBee
-sidebar_label: Giới thiệu BeeBee
+title: Giới thiệu beBee
+sidebar_label: Giới thiệu beBee
 slug: /
 ---
 
-## Beebee là gì ?
+## beBee là gì ?
 
-Beebee là công cụ luôn nằm ở màn hình chính của máy tính, khi cần người dùng chỉ cần rê chuột vào biểu tượng Beebee để xem thông báo hoặc click chuột để truy cập các chức năng chính của Beebee.
+beBee là công cụ luôn nằm ở màn hình chính của máy tính, khi cần người dùng chỉ cần rê chuột vào biểu tượng beBee để xem thông báo hoặc click chuột để truy cập các chức năng chính của beBee.
 
 Hỗ trợ tập trung, tối ưu công việc một cách hiệu quả. Cung cấp thông tin liên quan đến HR, Data và Business để mọi người nắm bắt tốt hơn về hoạt động công ty.
 
 <iframe src="https://www.youtube.com/embed/PL-o4RBP2oE" frameborder="0" allowfullscreen width="100%"height="450px"></iframe>
 
-## Quy trình phát triển Beebee
-Beebee được phát triển theo quy trình Evolution Version độc quyền tại Pitech. EV kế tiếp sẽ được bắt đầu khi EV hiện tại đáp ứng được yêu cầu chức năng đã thiết kế trước đó. Mỗi EV sẽ bao gồm những quy trình nhỏ như sau:
+## Quy trình phát triển beBee
+beBee được phát triển theo quy trình Evolution Version độc quyền tại Pitech. EV kế tiếp sẽ được bắt đầu khi EV hiện tại đáp ứng được yêu cầu chức năng đã thiết kế trước đó. Mỗi EV sẽ bao gồm những quy trình nhỏ như sau:
 + Specification: 
     + Xác định yêu cầu cho phần mềm thông qua nhu cầu thực tế của người sử dụng.
     + Thông qua nhu cầu thiết kế chức năng để giải quyết vấn đề <a href="#work-flow" >Work flow</a>
@@ -31,7 +31,7 @@ Beebee được phát triển theo quy trình Evolution Version độc quyền t
 
 ![link-anh](https://i.ibb.co/sJPN4SX/CQA-process-2.png)
 
-## Thành phần cấu tạo của project Beebee
+## Thành phần cấu tạo của project beBee
 
 Bao gồm các thành phần sau: <a href="#work-flow" >Work flow</a>, <a href="#module" >Module</a>, <a href="#function" >Function</a>, <a href="#ui" >UI</a>, <a href="#ev" >EV</a>.
 
@@ -77,4 +77,4 @@ Quan hệ giữa các thành phần được mô phỏng dựa trên mô hình r
 
 Một chức năng hoàn chỉnh được cấu thành từ nhiều Module nhỏ và UI, những Module sẽ được gắn ghép dựa theo bản vẽ Work flow.
 
-EV là phần tổng hợp của những chức năng hoàn chỉnh và hoạt động ổn định theo bước <a href="#quy-trình-phát-triển-beebee">Specification</a> ban đầu.
+EV là phần tổng hợp của những chức năng hoàn chỉnh và hoạt động ổn định theo bước <a href="#quy-trình-phát-triển-beBee">Specification</a> ban đầu.

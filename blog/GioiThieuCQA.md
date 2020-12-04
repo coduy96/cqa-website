@@ -1,6 +1,6 @@
 ---
 slug: report1
-title: Report ngày 25/09/2020
+title: Release EV00
 author: Duy Co
 author_title: POT Team
 author_url: https://github.com/coduy96
@@ -9,8 +9,31 @@ tags: [document]
 
 
 ---
-Update công việc của Beebee ngày 25/09/2020
+Huớng dẫn sử dụng EV01
 <!--truncate-->
 
-Lập architecture cho CQA 
-![hinh-anh](https://i.ibb.co/0hxnCb1/CQA-Programming-architecture-1.png)
+<a href="https://drive.google.com/file/d/1hYTmcl2pFozCdcGxxRH3HxeW6ff2NBo7/view?usp=sharing">Link Download</a>
+
+
+![hinh-anh](https://i.ibb.co/wCgTrrj/be-Bee-1-01.png)
+![hinh-anh1](https://i.ibb.co/LYZ9z0N/be-Bee-1-02.png)
+![hinh-anh2](https://i.ibb.co/cgr2L0L/be-Bee-1-03.png)
+![hinh-anh3](https://i.ibb.co/RjdqgjP/be-Bee-1-04.png)
+![hinh-anh4](https://i.ibb.co/4TP35yL/be-Bee-1-05.png)
+![hinh-anh5](https://i.ibb.co/CnN2mCs/be-Bee-1-06.png)
+![hinh-anh6](https://i.ibb.co/Fg0cxf7/be-Bee-1-07.png)
+![hinh-anh7](https://i.ibb.co/LP0mJJt/be-Bee-1-08.png)
+![hinh-anh8](https://i.ibb.co/TrGDfDh/be-Bee-1-09.png)
+![hinh-anh9](https://i.ibb.co/7GJ5Lgr/be-Bee-1-10.png)
+
+
+<!-- <a href="https://ibb.co/gw9GFFh"><img src="https://i.ibb.co/wCgTrrj/be-Bee-1-01.png" alt="be-Bee-1-01" border="0"></a>
+<a href="https://ibb.co/ydQgnN4"><img src="https://i.ibb.co/LYZ9z0N/be-Bee-1-02.png" alt="be-Bee-1-02" border="0"></a>
+<a href="https://ibb.co/w0zpsVs"><img src="https://i.ibb.co/cgr2L0L/be-Bee-1-03.png" alt="be-Bee-1-03" border="0"></a>
+<a href="https://ibb.co/9ZS7pZ2"><img src="https://i.ibb.co/RjdqgjP/be-Bee-1-04.png" alt="be-Bee-1-04" border="0"></a>
+<a href="https://ibb.co/VS25PyG"><img src="https://i.ibb.co/4TP35yL/be-Bee-1-05.png" alt="be-Bee-1-05" border="0"></a>
+<a href="https://ibb.co/FBNVmZq"><img src="https://i.ibb.co/CnN2mCs/be-Bee-1-06.png" alt="be-Bee-1-06" border="0"></a>
+<a href="https://ibb.co/yWYKfMs"><img src="https://i.ibb.co/Fg0cxf7/be-Bee-1-07.png" alt="be-Bee-1-07" border="0"></a>
+<a href="https://ibb.co/hMgbZZW"><img src="https://i.ibb.co/LP0mJJt/be-Bee-1-08.png" alt="be-Bee-1-08" border="0"></a>
+<a href="https://ibb.co/nRyqGqk"><img src="https://i.ibb.co/TrGDfDh/be-Bee-1-09.png" alt="be-Bee-1-09" border="0"></a>
+<a href="https://ibb.co/y8n17hg"><img src="https://i.ibb.co/7GJ5Lgr/be-Bee-1-10.png" alt="be-Bee-1-10" border="0"></a> -->

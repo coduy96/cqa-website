@@ -42,7 +42,7 @@ sidebar_label: Sale data function detailing
 
 <!-- ## Thông tin realtime
 
-Khi có bất kì sự thay đổi dữ liệu trên cơ sở dữ liệu Beebee ( thêm, sửa, xóa). Tất cả người dùng sẽ được cập nhật thông tin ngay tức thì.
+Khi có bất kì sự thay đổi dữ liệu trên cơ sở dữ liệu beBee ( thêm, sửa, xóa). Tất cả người dùng sẽ được cập nhật thông tin ngay tức thì.
 
 Module cấu thành:
 + Listener module

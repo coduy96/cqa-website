@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
   title: 'beBee',
   tagline: 'The tagline of my site',
@@ -5,38 +7,41 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'Pitech', // Usually your GitHub org/user name.
-  projectName: 'cqa-website', // Usually your repo name.
+  organizationName: 'Pitech',
+  // Usually your GitHub org/user name.
+  projectName: 'cqa-website',
+  // Usually your repo name.
   themeConfig: {
-    colorMode:{
-      defaultMode: 'dark',
+    colorMode: {
+      defaultMode: 'dark'
     },
     navbar: {
       title: 'beBee',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.svg'
       },
-      items: [
-        {to: 'docs', label: 'Document', position: 'left'},
-        {to: 'blog', label: 'Release', position: 'left'},
-
-        // {
-        //   type: 'docsVersionDropdown',
-        //   position: 'left',
-        // },
-
-        {
-          href: 'https://github.com/',
-          label: 'GitHub',
-          position: 'right',
-        }
-      ],
+      items: [{
+        to: 'docs',
+        label: 'Document',
+        position: 'left'
+      }, {
+        to: 'blog',
+        label: 'Release',
+        position: 'left'
+      }, // {
+      //   type: 'docsVersionDropdown',
+      //   position: 'left',
+      // },
+      {
+        href: 'https://github.com/',
+        label: 'GitHub',
+        position: 'right'
+      }]
     },
     footer: {
       style: 'dark',
-      links: [
-        // {
+      links: [// {
         //   title: 'Docs',
         //   items: [
         //     {
@@ -80,34 +85,27 @@ module.exports = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Pitech Inc, beBee by BOT`,
-    },
+      copyright: "Copyright \xA9 ".concat(new Date().getFullYear(), " Pitech Inc, beBee by BOT")
+    }
   },
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-            postsPerPage: 3,
-            feedOptions: {
-              type: "all",
-              copyright: `Copyright © ${new Date().getFullYear()} Dver.`
-            }
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
+  presets: [['@docusaurus/preset-classic', {
+    docs: {
+      sidebarPath: require.resolve('./sidebars.js'),
+      // Please change this to your repo.
+      editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/'
+    },
+    blog: {
+      showReadingTime: true,
+      // Please change this to your repo.
+      editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+      postsPerPage: 3,
+      feedOptions: {
+        type: "all",
+        copyright: "Copyright \xA9 ".concat(new Date().getFullYear(), " Dver.")
+      }
+    },
+    theme: {
+      customCss: require.resolve('./src/css/custom.css')
+    }
+  }]]
 };
