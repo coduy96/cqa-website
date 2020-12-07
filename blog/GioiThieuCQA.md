@@ -9,11 +9,13 @@ tags: [document]
 
 
 ---
-Huớng dẫn sử dụng EV00
+Release beBee EV00
 <!--truncate-->
 
-<a href="https://drive.google.com/file/d/1kjmR4ushixkZqkxvPilbVQf3ua8NdRE9/view?usp=sharing">Link Download</a>
+<h2><a href="https://drive.google.com/file/d/1N208KNr2oyPUzI4lTuFZOcK2njsjp5wo/view?usp=sharing">Link download beBee</a></h2>
 
+
+<h2>Huớng dẫn sử dụng EV00</h2>
 
 ![hinh-anh](https://i.ibb.co/wCgTrrj/be-Bee-1-01.png)
 ![hinh-anh1](https://i.ibb.co/LYZ9z0N/be-Bee-1-02.png)
