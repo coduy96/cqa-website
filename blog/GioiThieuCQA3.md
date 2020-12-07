@@ -1,6 +1,6 @@
 ---
-slug: report1
-title: Release EV00
+slug: report3
+title: Release EV02
 author: Duy Co
 author_title: POT Team
 author_url: https://github.com/coduy96
@@ -9,17 +9,14 @@ tags: [document]
 
 
 ---
-Release beBee EV00
+Release beBee EV02
 <!--truncate-->
 
 <h2>Hướng dẫn tải và cài đặt beBee</h2>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HM8vDfukrY8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
- <h3><a href="https://github.com/coduy96/bebeeRelease/blob/master/ReleaseBeBee.exe">Link download beBee</a></h3>
+ <h3><a href="">Link download beBee</a></h3>
     
 
-<h2>Huớng dẫn sử dụng EV00</h2>
+<h2>Huớng dẫn sử dụng EV02</h2>
 
 ![hinh-anh](https://i.ibb.co/wCgTrrj/be-Bee-1-01.png)
 ![hinh-anh1](https://i.ibb.co/LYZ9z0N/be-Bee-1-02.png)
