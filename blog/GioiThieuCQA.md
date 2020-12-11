@@ -18,7 +18,7 @@ Release beBee EV00
 
  <h3><a href="https://github.com/coduy96/bebeeRelease/blob/master/README.md">Link download beBee (Version 1.0)</a></h3>
 
- <h3><a href="https://github.com/coduy96/bebeeRelease/blob/master/bebee.exe">Link download beBee (Version 1.1)</a></h3>
+ <h3><a href="https://github.com/coduy96/bebeeRelease/blob/master/ReleaseBeBee.exe">Link download beBee (Version 1.1)</a></h3>
 
 <h2>Huớng dẫn sử dụng EV00</h2>
 
