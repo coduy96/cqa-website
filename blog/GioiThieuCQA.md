@@ -16,7 +16,6 @@ Release beBee EV00
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HM8vDfukrY8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
- <h3><a href="https://github.com/coduy96/bebeeRelease/blob/master/README.md">Link download beBee (Version 1.0)</a></h3>
 
  <h3><a href="https://github.com/coduy96/bebeeRelease/blob/master/ReleaseBeBee.exe">Link download beBee (Version 1.1)</a></h3>
 
